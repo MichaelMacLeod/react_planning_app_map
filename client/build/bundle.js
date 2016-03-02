@@ -48,10 +48,10 @@
 
 	var React = __webpack_require__(1);
 	var ReactDOM = __webpack_require__(158);
-	var CountriesBox = __webpack_require__(159);
+	var AllPlans = __webpack_require__(159);
 
 	window.onload = function () {
-	  ReactDOM.render(React.createElement(CountriesBox, null), document.getElementById('app'));
+	  ReactDOM.render(React.createElement(AllPlans, null), document.getElementById('app'));
 	};
 
 /***/ },
@@ -19663,23 +19663,23 @@
 
 	var React = __webpack_require__(1);
 
-	var CountriesBox = React.createClass({
-	  displayName: "CountriesBox",
+	var AllPlans = React.createClass({
+	  displayName: "AllPlans",
 
 
 	  getInitialState: function getInitialState() {
-	    return { countries: [], currentCountry: null };
+	    return { plans: [], currentPlan: null };
 	  },
 
-	  //Now get info from API by making a request to the REST server:
+	  //Now getting info from API by making a request to server github:
 
 	  componentDidMount: function componentDidMount() {
-	    var url = "https://restcountries.eu/rest/v1/all";
+	    var url = "https://github.com/MichaelMacLeod/react_planning_app_map/blob/master/data.json";
 	    var request = new XMLHttpRequest();
 	    request.open("GET", url);
 	    request.onload = function () {
 	      var data = JSON.parse(request.responseText);
-	      this.setState({ countries: data });
+	      this.setState({ plans: data });
 	    }.bind(this);
 	    request.send(null);
 	  },
@@ -19691,13 +19691,13 @@
 	      React.createElement(
 	        "h4",
 	        null,
-	        " Countries Box "
+	        " All Plans "
 	      )
 	    );
 	  }
 	});
 
-	module.exports = CountriesBox;
+	module.exports = AllPlans;
 
 /***/ }
 /******/ ]);

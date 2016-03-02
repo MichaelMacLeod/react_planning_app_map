@@ -6,7 +6,7 @@ var AllPlans = React.createClass({
     return { plans:[], currentPlan:null }
   }, 
 
-  //Now get info from API by making a request to the REST server: 
+  //Now getting info from API by making a request to server github: 
 
   componentDidMount:function(){
     var url = "https://github.com/MichaelMacLeod/react_planning_app_map/blob/master/data.json"
