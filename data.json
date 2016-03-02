@@ -1,0 +1,38 @@
+[
+{
+"id": 1,
+"decription": "Gogar hotel",
+"URL": "https://citydev-portal.edinburgh.gov.uk/idoxpa-web/applicationDetails.do?activeTab=documents&keyVal=O3AYZ4EW0GY00",
+"type": "PAN"
+},
+{
+"id": 2,
+"decription": "St Andrew Square flats",
+"docsURL": "https://citydev-portal.edinburgh.gov.uk/idoxpa-web/applicationDetails.do?activeTab=documents&keyVal=O2XVQVEWHEZ00",
+"type": "LBC"
+},
+{
+"id": 3,
+"decription": "Gold Brothers refurbishment",
+"docsURL": "https://citydev-portal.edinburgh.gov.uk/idoxpa-web/applicationDetails.do?activeTab=summary&keyVal=O3243HEW09Z00",
+"type": "LBC"
+},
+{
+  "id": 4,
+  "decription": "Merchiston tree",
+  "docsURL": "https://citydev-portal.edinburgh.gov.uk/idoxpa-web/applicationDetails.do?activeTab=documents&keyVal=O2ZQENEWHJ100",
+  "type": "TCO"
+},
+{
+  "id": 5,
+  "decription": "Minto hotel demolition",
+  "docsURL": "https://citydev-portal.edinburgh.gov.uk/idoxpa-web/applicationDetails.do?activeTab=documents&keyVal=O2SJZ7EWHAB00",
+  "type": "FUL"
+},
+{
+  "id": 6,
+  "decription": "Meadowbank flats",
+  "docsURL": "https://citydev-portal.edinburgh.gov.uk/idoxpa-web/applicationDetails.do?activeTab=documents&keyVal=O2QNZ6EW09Z00",
+  "type": "FUL"
+}
+]
