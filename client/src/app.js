@@ -1,10 +1,10 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var CountriesBox = require('./components/CountriesBox.jsx')
+var AllPlans = require('./components/AllPlans.jsx')
 
 window.onload = function(){
   ReactDOM.render(
-    <CountriesBox></CountriesBox>,
+    <AllPlans></AllPlans>,
     document.getElementById('app')
   );
 }
